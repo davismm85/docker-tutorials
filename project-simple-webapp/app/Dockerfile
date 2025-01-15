@@ -7,7 +7,7 @@ COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application code into the container
-COPY . app.py
+COPY . .
 
 # final configuration
 ENV FLASK_APP=app.py
