@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM python:latest
 
 # Copy the requirements
 COPY requirements.txt requirements.txt
