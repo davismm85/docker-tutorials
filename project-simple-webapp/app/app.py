@@ -3,7 +3,7 @@ from sqlalchemy import create_engine, text
 
 app = Flask(__name__)
 
-DATABASE_URL = "postgresql://user:password@db:5432/mydb"
+DATABASE_URL = "postgresql://user:pass@db:5432/mydb"
 engine = create_engine(DATABASE_URL)
 
 @app.route('/api/users', methods=['GET'])
